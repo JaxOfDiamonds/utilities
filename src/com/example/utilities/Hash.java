@@ -9,6 +9,8 @@ import java.security.NoSuchAlgorithmException;
 
 public class Hash {
 
+    private Hash(){}
+
     /**
      * Gets the hash of a file based on the algorithm passed. Reads file in byte by byte chunks.
      *
